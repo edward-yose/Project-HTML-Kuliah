@@ -1,3 +1,13 @@
+.main{
+    background-color: burlywood;
+}
+
+.main h1{
+    display: flex;
+    justify-content: center;
+}
+
+
 form{
     width: 100vw;
     height: 60vh;
@@ -5,7 +15,6 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: burlywood;
 }
 
 form *{
