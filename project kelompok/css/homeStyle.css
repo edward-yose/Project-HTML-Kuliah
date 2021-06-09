@@ -102,7 +102,7 @@
 
 .newArrival h1, .newArrival p, .newArrival h2, .newArrival a{
     display: flex;
-   padding-left: 50%;
+    padding-left: 50%;
 }
 .newArrival h3{
     padding-left: 70%;
