@@ -1,16 +1,13 @@
 const width = 600
 
-var prev = $('#prev')
-var next = $('#next')
 var slides = $(".slides div")
+var i = 0 //index
+var j = 0 //position
 
 setInterval(right, 3000)
 
-prev.on('click', left)
-next.on('click', right)
-
-var i = 0 //index
-var j = 0 //position
+$('#prev').on('click', left)
+$('#next').on('click', right)
 
 function left() {
         i--
