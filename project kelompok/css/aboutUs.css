@@ -2,15 +2,17 @@
 .body{
     align-items: center;
     background-color: burlywood;
-    height: 600px;
+    height: 500px;
     display: flex;
     place-content: center;
 }
 
 .judul{
     font-size: xx-large;
-    text-align: center;
     padding: 10px;
+    background-color:red;
+    display: flex;
+    width: 25%;
 }
 
 .textParagraph{
@@ -19,4 +21,14 @@
     font-size: larger;
     text-align: justify;
     padding: 10px;
+}
+.name{
+    background-color:lightblue;
+    width: 50%;
+}
+
+@media only screen and (max-width : 800px){
+    .name{
+        width: 90%;
+    }
 }
