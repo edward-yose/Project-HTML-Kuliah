@@ -59,6 +59,10 @@
     background-repeat: no-repeat;
 }
 
+.newArrival:hover{
+    background-size: 120%;
+}
+
 .slideshow{
     display: flex;
     justify-content: center;
